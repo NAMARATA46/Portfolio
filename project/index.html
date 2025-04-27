@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Namrata Maid - Portfolio</title>
+
+  <!-- Link to your CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome (for icons, if needed) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- Typed.js library for typing animation -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<style>
+  /* Keep header/nav background navy blue */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #001f3f; /* Navy Blue */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Logo text */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; /* White text */
+    text-decoration: none;
+  }
+
+  /* Navbar */
+  .navbar {
+    display: flex;
+    gap: 20px; /* Adds space between navbar items */
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #ffffff; /* White links */
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: transform 0.3s ease;
+  }
+
+  /* Hover effect */
+  .navbar a:hover {
+    transform: scale(1.1);
+    /* No color change, keeps white text and navy blue background */
+  }
+  .footer {
+    width: 100%; /* Full width */
+    background-color: #001f3f; /* Navy Blue */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Ensures footer takes full width */
+    bottom: 0;
+  }
+
+  /* Footer text */
+  .footer p {
+    margin: 0;
+  }
+</style>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="certifications.html">Certifications</a>
+      <a href="coursework.html">Coursework</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="ContactForm.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Namrata Maid</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>A passionate Cloud Computing and DevOps enthusiast, skilled in AWS, Google Cloud, and DevOps technologies.</p>
+      <a href="projects.html" class="btn">View My Work</a>
+    </div>
+    <div class="home-img">
+      <img src="profile.png" alt="Profile Picture">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="heading">About <span>Me</span></h2>
+    <div class="about-content">
+      <p>Motivated Junior-Level Cloud Engineer with hands-on experience in AWS, Google Cloud, and Azure, along with expertise in DevOps practices such as CI/CD pipeline development, infrastructure automation, and cloud system monitoring.
+      <br><br>
+      Proficient in core AWS services like EC2, S3, IAM, CloudWatch, and VPC, with additional experience in Linux system administration, GitLab, Docker, and Kubernetes.
+      <br><br>
+      Currently expanding expertise in Oracle Cloud Infrastructure (OCI), Oracle Integration Cloud (OIC), and Field Service domains, aimed at building robust cross-platform cloud proficiency.
+      <br><br>
+      Strong understanding of cloud-native architecture, security best practices, and networking concepts. Skilled in troubleshooting, incident resolution, and performance optimization. Eager to contribute to infrastructure provisioning, manage scalable cloud environments, and drive DevOps excellence within a collaborative team setting.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <p><strong>Location:</strong> Pune, Maharashtra</p>
+      <p><strong>Phone:</strong> 9172098664</p>
+      <p><strong>Email:</strong> <a href="mailto:namratamaid12@gmail.com">namratamaid12@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/namrata-maid-501652191" target="_blank">linkedin.com/in/namrata-maid-501652191</a></p>
+    </div>
+
+    
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Namrata Maid. All rights reserved.</p>
+  </footer>
+
+  <!-- Script Section -->
+  <script>
+    // Typing Animation
+    var typed = new Typed(".multiple-text", {
+      strings: ["Junior-Level Cloud Engineer", "AWS Certified"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop: true
+    });
+	
+ 
+
+  </script>
+</body>
+</html>

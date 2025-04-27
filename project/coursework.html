@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coursework</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS File (optional) -->
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #001f3f;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #0059b3;
+            border-radius: 5px;
+        }
+
+        /* Coursework Section */
+        .coursework {
+            background-color: #f4f4f9;
+            padding: 50px 20px;
+            text-align: center;
+            margin-top: 70px; /* To prevent overlap with fixed nav */
+        }
+
+        .coursework h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .coursework ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .coursework li {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .coursework li strong {
+            color: #004080;
+        }
+
+        .footer {
+    width: 100%; /* Full width */
+    background-color: #001f3f; /* Navy Blue */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Ensures footer takes full width */
+    bottom: 0;
+  }
+
+  /* Footer text */
+  .footer p {
+    margin: 0;
+  }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .coursework h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+	  
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="coursework.html">Coursework</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+        </ul>
+    </nav>
+
+    <!-- Coursework Section -->
+    <section class="coursework" id="coursework">
+        <h2 class="heading">Coursework </h2>
+
+        <ul>
+            <li>
+                <strong>DevOps on AWS</strong> (Completed: 19-03-24) <br>
+                This certification focuses on using DevOps philosophies, practices, and tools in AWS Cloud to develop, deploy, and maintain applications. Benefits include rapid delivery, reliability, scalability, security, and improved collaboration.
+            </li>
+            <li>
+                <strong>Continuous Delivery & DevOps</strong> (Completed: 24-03-24) <br>
+                This program equips learners with the skills necessary to implement Continuous Delivery (CD) practices and DevOps methodologies in software development and IT operations.
+            </li>
+            <li>
+                <strong>Cloud Fundamentals</strong> (Completed: 2024) <br>
+                Completed core cloud concepts including infrastructure, services, and best practices, preparing individuals for roles in IT infrastructure management, cloud engineering, and cloud-native application development.
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Namrata Maid. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
